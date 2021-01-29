@@ -1,0 +1,20 @@
+<!--pages/distinguish/distinguish.wxml-->
+<view class="body-box">
+  <view class="album-box" bindtap="uploadClick" data-mode="album">
+    <image mode="widthFix" class="album" src="/assets/image/xiangce.jpg"></image>
+    <text class="album-text">从相册中选图</text>
+  </view>
+  <view class="photograph-box" bindtap="uploadClick" data-mode="original">
+    <image mode="widthFix" class="photo" src="/assets/image/came.png"></image>
+    <text class="photograph-text">拍照</text>
+  </view>
+  <view class="upload-box" hidden="{{imgShow}}">
+    <image src="{{upload}}" mode="widthFix"></image>
+  </view>
+  <view class="text-box">
+    <text class="text-text" selectable>{{distinguish}}</text>
+  </view>
+  <view class="copy-box" bind:tap="copyClick">
+    <text class="copy-text">点此复制文字</text>
+  </view>
+</view>

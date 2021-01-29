@@ -1,0 +1,82 @@
+/* pages/distinguish/distinguish.wxss */
+page{
+  background-color: #f7f7f7;
+}
+.album-box{
+  width: 700rpx;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10rpx;
+  padding: 21rpx 0;
+  margin-top: 26rpx;
+  background: #1385ef;
+}
+.album-box .album{
+  width: 23rpx;
+  margin-right: 20rpx;
+  position: relative;
+  top: 2rpx;
+}
+.photograph-box{
+  width: 700rpx;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10rpx;
+  padding: 21rpx 0;
+  margin-top: 26rpx;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+.photograph-box .photo{
+  width: 26rpx;
+  margin-right: 20rpx;
+  /* margin-top: 12rpx; */
+  position: relative;
+  top: 2rpx;
+}
+/* .album-box .album{
+  height: 26rpx;
+} */
+.album-box .album-text{
+  font-size: 24rpx;
+  color: #ffffff;
+}
+.photograph-box{
+  border: #f4f4f4 1rpx solid;
+  margin-top: 22rpx;
+  margin-bottom: 22rpx;
+}
+.photograph-box .photograph-text{
+  font-size: 24rpx;
+}
+
+.upload-box{
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 22rpx;
+}
+.text-box{
+  width: 700rpx;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: #f4f4f4 1rpx solid; 
+}
+.text-box .text-text{
+  color: #b1b1b1;
+  display: inline-block;
+  padding: 27rpx 0 210rpx 27rpx;
+  font-size: 24rpx;
+}
+.copy-box{
+  width: 250rpx;
+  margin: 0 auto;
+  margin-top: 29rpx;
+  text-align: center;
+  background: #1385ef;
+}
+.copy-box .copy-text{
+  color: #ffffff;
+  font-size: 24rpx;
+  display: inline-block;
+  padding: 26rpx 0;
+}
